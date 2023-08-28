@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container{
+    border: 2px solid red;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    flex-flow: row wrap;
+    /* flex-direction: row; */
+    /* flex-direction:column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-content: start; */
+      /* align-content: end; */
+    /* align-content: center; */
+    /* align-content:space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    /* place-content: center flex-end; */
+    /* align-items: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: stretch; */
+    
+}
+
+/* .box-1{
+    order: 0;
+}
+
+.box-2{order: 3;}
+
+.box-3{order: 2;} */
+
+/* .box-3{align-self: flex-end;} */
+
+/* .box-4{order: 2;} */
+
+[class^="box-"]{
+   width: 200px;
+    height: 100px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+
+/* .box-1{
+   flex-basis: 100px;
+}
+
+.box-2{flex-grow: 3;}
+
+.box-3{flex-grow: 1;} 
+
+
+
+.box-4{flex-grow: 1;} */
+
+.box-1{
+    /* flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 3 1 200px;
+ }
